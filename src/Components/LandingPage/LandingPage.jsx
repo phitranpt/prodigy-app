@@ -2,12 +2,19 @@ import React from 'react';
 import './LandingPage.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import Typography from '@material-ui/core/Typography';
+import prodigy_logo3 from '../../prodigy_logo3.png';
 
 function LandingPage() {
   return (
     <div className='landing-page-container'>
       <div className='background-img'>
         <div className='social-media-icons'>
+          <img 
+            src={prodigy_logo3} 
+            alt='logo'
+            className='prodigy-logo' 
+          />
           <FontAwesomeIcon 
             className='facebook-icon'
             icon={faFacebookSquare} 
@@ -18,10 +25,19 @@ function LandingPage() {
             icon={faInstagram} 
             size='2x' 
           />
+          <Typography className='link1'>
+            Contact
+          </Typography>
+          <Typography className='link2'>
+            About
+          </Typography>
+          <Typography className='link3'>
+            Tour
+          </Typography>
+          <Typography className='link4'>
+            Programs
+          </Typography>
         </div>
-      </div>
-      <div className='logo-img'>
-        
       </div>
     </div>
   );

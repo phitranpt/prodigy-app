@@ -1,30 +1,69 @@
 .landing-page-container {
-  display: flex;
   .background-img {
-    background-image: url('../../belt.png');
+    background-image: url('../../belt12.png');
     height: 100vh; 
-    width: 60%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    flex: 1;
     .social-media-icons {
+      margin-top: 15px;
+      padding-right: 85px;
+      padding-left: 85px;
       padding-top: 20px;
-      padding-left: 20px;
+      .prodigy-logo {
+        height: 9vh;
+        width: 9vh;
+      }
       .facebook-icon {
-        color:#4267B2;
-        padding: 10px, 10px;
+        float: right;
+        color:#4a515c;
+        margin-left: 20px;
+        padding-top: 25px;
         cursor: pointer;
       }
       .instagram-icon {
-        color: #FCAF45;
-        margin-left: 12px;
+        float: right;
+        color: #4a515c;
+        padding-top: 25px;
+        cursor: pointer;
+      }
+      .link1 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+      }
+      .link2 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+      }
+      .link3 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
+        cursor: pointer;
+      }
+      .link4 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        color: #4a515c;
+        padding-top: 35px;
+        padding-right: 60px;
+        float: right;
         cursor: pointer;
       }
     }
-  }
-  .logo-img {
-    width: 40%;
-    height: 100vh; 
   }
 }
