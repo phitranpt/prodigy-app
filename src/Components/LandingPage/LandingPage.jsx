@@ -38,6 +38,25 @@ function LandingPage() {
             Programs
           </Typography>
         </div>
+        <div className='prodigy-title row'>
+          <Typography className='prod-1'>
+            Prod&#183;i&#183;gy
+          </Typography> 
+          <Typography className='prod-2'>
+            /prädjē/
+          </Typography> 
+          <Typography className='prod-3'>
+            {`An impressive or outstanding\nexample of a particular quality.`}
+          </Typography>
+          <div className='button-row'>
+            <button 
+              type='button'
+              className='discover-btn'
+            >
+              Discover us
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );

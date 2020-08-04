@@ -12,8 +12,8 @@
       padding-left: 85px;
       padding-top: 20px;
       .prodigy-logo {
-        height: 9vh;
-        width: 9vh;
+        height: 15vh;
+        width: 15vh;
       }
       .facebook-icon {
         float: right;
@@ -71,6 +71,56 @@
         padding-right: 60px;
         float: right;
         cursor: pointer;
+      }
+    }
+    .prodigy-title {
+      margin-top: 100px;
+      margin-left: 90px;
+      .prod-1 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        color: #4a515c;
+        font-weight: 800;
+        font-size: 50px;
+        font-style: italic;
+      }
+      .prod-2 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        color: #4a515c;
+        font-weight: 800;
+        font-size: 40px;
+        padding-top: 25px;
+      }
+      .prod-3 {
+        font-family: 'Tajawal', sans-serif;
+        letter-spacing: 5px;
+        color: #4a515c;
+        font-weight: bolder;
+        padding-top: 40px;
+        white-space: pre-wrap;
+      }
+      .button-row {
+        padding-top: 150px;
+        .discover-btn {
+          font-family: 'Tajawal', sans-serif;
+          letter-spacing: 5px;
+          color: #4a515c;
+          font-weight: bolder;
+          padding: 1.3em 6.2em;
+          // margin: 0 0.3em 0.3em 0;
+          border-radius: 1.5em;
+          // box-sizing: border-box;
+          // text-decoration: none;
+          background-color: white;
+          // transition: all 0.2s;
+          border-width: 4px;
+          &:hover {
+            border-color: red;
+            color: red;
+          }
+        }
       }
     }
   }
