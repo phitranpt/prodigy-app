@@ -3,7 +3,6 @@ import './LandingPage.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import Typography from '@material-ui/core/Typography';
-import prodigy_logo3 from '../../prodigy_logo3.png';
 
 function LandingPage() {
   return (
@@ -11,7 +10,7 @@ function LandingPage() {
       <div className='background-img'>
         <div className='social-media-icons'>
           <img 
-            src={prodigy_logo3} 
+            src='/images/ProdigyLogo.png'
             alt='logo'
             className='prodigy-logo' 
           />
@@ -50,7 +49,7 @@ function LandingPage() {
           </Typography>
           <div className='button-row'>
             <button className='btn discover'>
-              Discover us
+              Discover Us
             </button>
           </div>
         </div>
