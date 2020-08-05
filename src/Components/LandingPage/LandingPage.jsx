@@ -49,10 +49,7 @@ function LandingPage() {
             {`An impressive or outstanding\nexample of a particular quality.`}
           </Typography>
           <div className='button-row'>
-            <button 
-              type='button'
-              className='discover-btn'
-            >
+            <button className='btn discover'>
               Discover us
             </button>
           </div>

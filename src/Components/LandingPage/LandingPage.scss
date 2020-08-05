@@ -103,23 +103,20 @@
       }
       .button-row {
         padding-top: 150px;
-        .discover-btn {
+        .btn {
           font-family: 'Tajawal', sans-serif;
-          letter-spacing: 5px;
-          color: #4a515c;
           font-weight: bolder;
-          padding: 1.3em 6.2em;
-          // margin: 0 0.3em 0.3em 0;
+          border: 2px solid black;
           border-radius: 1.5em;
-          // box-sizing: border-box;
-          // text-decoration: none;
           background-color: white;
-          // transition: all 0.2s;
-          border-width: 4px;
-          &:hover {
-            border-color: red;
-            color: red;
-          }
+          color: black;
+          padding: 15px 100px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        .discover:hover {
+          border-color: red;
+          color: red;
         }
       }
     }
